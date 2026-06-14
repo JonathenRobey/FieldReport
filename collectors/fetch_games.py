@@ -14,6 +14,8 @@ Run:
     python fetch_games.py --dry-run   # fetch but don't write to DB
 """
 
+from __future__ import annotations
+
 import argparse
 import sqlite3
 import time
